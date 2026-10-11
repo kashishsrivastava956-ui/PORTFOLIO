@@ -1,0 +1,506 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio | Developer</title>
+    <meta name="description"
+          content="Personal portfolio showcasing my skills, projects and experience.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Background Decoration -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">
+                Port<span>folio.</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="theme-toggle" id="themeToggle"
+                    aria-label="Switch color theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-content reveal">
+                    <p class="eyebrow">
+                        <span class="status-dot"></span>
+                        AVAILABLE FOR OPPORTUNITIES
+                    </p>
+
+                    <h1>
+                        Hi, I'm <span class="gradient-text">Kashish Srivastava</span>
+                    </h1>
+
+                    <h2>
+                        I'm a <span id="typingText"></span><span
+                        class="typing-cursor">|</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        I create modern, responsive and user-friendly
+                        digital experiences. I enjoy solving problems,
+                        learning new technologies and building useful
+                        projects.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Work
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="resume.pdf" class="btn btn-outline"
+                           download>
+                            Download Resume
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/kashishsrivastava956-ui"
+                           target="_blank" rel="noopener noreferrer"
+                           aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/kashish-srivastava-905563424/edit/intro/"
+                           target="_blank" rel="noopener noreferrer"
+                           aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="kashishsrivastava956@gmail.com"
+                           aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="profile-orbit">
+                        <div class="orbit orbit-one"></div>
+                        <div class="orbit orbit-two"></div>
+
+                        <div class="profile-card">
+                            <div class="profile-icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+
+                            <h3>Kashish Srivastava</h3>
+                            <p>Developer & Learner</p>
+
+                            <div class="profile-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+
+                        <div class="floating-badge badge-code">
+                            <i class="fa-solid fa-code"></i> Code
+                        </div>
+
+                        <div class="floating-badge badge-creative">
+                            <i class="fa-solid fa-lightbulb"></i> Create
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-down">
+                Scroll to explore
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-label">GET TO KNOW ME</p>
+                    <h2>About <span class="gradient-text">Me</span></h2>
+                    <p>A little introduction about who I am.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card glass-card reveal">
+                        <div class="about-icon">
+                            <i class="fa-solid fa-user-graduate"></i>
+                        </div>
+
+                        <h3>Who Am I?</h3>
+
+                        <p>
+                            I am a student passionate about technology
+                            and software development. I enjoy turning
+                            ideas into real projects and continuously
+                            improving my programming skills.
+                        </p>
+
+                        <p>
+                            My goal is to build meaningful digital
+                            products, gain practical experience and
+                            grow as a developer.
+                        </p>
+                    </div>
+
+                    <div class="about-details reveal">
+                        <div class="detail-card glass-card">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>BCA IN AI & ML FROM SRMU LKO</p>
+                            </div>
+                        </div>
+
+                        <div class="detail-card glass-card">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <div>
+                                <h4>Interests</h4>
+                                <p>Web Development, Python, AI/ML</p>
+                            </div>
+                        </div>
+
+                        <div class="detail-card glass-card">
+                            <i class="fa-solid fa-bullseye"></i>
+                            <div>
+                                <h4>Career Goal</h4>
+                                <p>Build projects and gain experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-label">MY TOOLKIT</p>
+                    <h2>Skills & <span class="gradient-text">Technologies</span></h2>
+                    <p>Technologies I am learning and using.</p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card glass-card reveal">
+                        <i class="fa-brands fa-html5 skill-icon html"></i>
+                        <h3>HTML5</h3>
+                        <p>Web page structure</p>
+                        <div class="skill-track">
+                            <span style="--level: 85%"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card glass-card reveal">
+                        <i class="fa-brands fa-css3-alt skill-icon css"></i>
+                        <h3>CSS3</h3>
+                        <p>Styling & responsive UI</p>
+                        <div class="skill-track">
+                            <span style="--level: 80%"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card glass-card reveal">
+                        <i class="fa-brands fa-js skill-icon js"></i>
+                        <h3>JavaScript</h3>
+                        <p>Interactive web pages</p>
+                        <div class="skill-track">
+                            <span style="--level: 65%"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card glass-card reveal">
+                        <i class="fa-brands fa-python skill-icon python"></i>
+                        <h3>Python</h3>
+                        <p>Programming & logic</p>
+                        <div class="skill-track">
+                            <span style="--level: 70%"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card glass-card reveal">
+                        <i class="fa-brands fa-git-alt skill-icon git"></i>
+                        <h3>Git & GitHub</h3>
+                        <p>Version control</p>
+                        <div class="skill-track">
+                            <span style="--level: 60%"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card glass-card reveal">
+                        <i class="fa-solid fa-brain skill-icon ai"></i>
+                        <h3>AI / ML</h3>
+                        <p>Learning data & models</p>
+                        <div class="skill-track">
+                            <span style="--level: 45%"></span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-label">WHAT I HAVE BUILT</p>
+                    <h2>Featured <span class="gradient-text">Projects</span></h2>
+                    <p>Some projects that demonstrate my skills.</p>
+                </div>
+
+                <div class="project-filters reveal">
+                    <button class="filter-btn active"
+                            data-filter="all">All</button>
+                    <button class="filter-btn"
+                            data-filter="web">Web Development</button>
+                    <button class="filter-btn"
+                            data-filter="python">Python</button>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card glass-card reveal"
+                             data-category="web">
+                        <div class="project-visual visual-one">
+                            <i class="fa-solid fa-globe"></i>
+                            <span>01 / WEB</span>
+                        </div>
+
+                        <div class="project-info">
+                            <p class="project-type">WEB DEVELOPMENT</p>
+                            <h3>Quiz Website</h3>
+                            <p>
+                               python quiz website 
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="https://github.com/kashishsrivastava956-ui/Python-quiz"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+                                GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card glass-card reveal"
+                             data-category="python">
+                        <div class="project-visual visual-two">
+                            <i class="fa-solid fa-list-check"></i>
+                            <span>02 / PYTHON</span>
+                        </div>
+
+                        <div class="project-info">
+                            <p class="project-type">PYTHON APPLICATION</p>
+                            <h3>To-Do List Manager</h3>
+                            <p>
+                                A task management application to add,
+                                organize and track daily tasks.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Tkinter</span>
+                                <span>JSON</span>
+                            </div>
+
+                            <a href="https://github.com/kashishsrivastava956-ui/CODSOFT_TASKS/tree/main/todo_list"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+                                GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card glass-card reveal"
+                             data-category="web">
+                        <div class="project-visual visual-three">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>03 / WEB</span>
+                        </div>
+
+                        <div class="project-info">
+                            <p class="project-type">WEB APPLICATION</p>
+                            <h3>Amazon-clone</h3>
+                            <p>
+                                Amazon-clone
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="https://github.com/kashishsrivastava956-ui/Amazon-clone"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+                                GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section section-alt" id="contact">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="section-label">LET'S CONNECT</p>
+                    <h2>Contact <span class="gradient-text">Me</span></h2>
+                    <p>Have a project idea? Let's talk about it.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info glass-card reveal">
+                        <h3>Let's work together!</h3>
+                        <p>
+                            Feel free to contact me for projects,
+                            internships, collaboration or learning.
+                        </p>
+
+                        <a href="mailto:your.email@example.com"
+                           class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>kashishsrivastava956@gmail.com</span>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/kashish-srivastava-905563424/edit/intro/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="contact-item">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <span>Connect on LinkedIn</span>
+                        </a>
+
+                        <a href="https://github.com/kashishsrivastava956-ui?tab=repositories"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="contact-item">
+                            <i class="fa-brands fa-github"></i>
+                            <span>Explore my GitHub</span>
+                        </a>
+                    </div>
+
+                    <form class="contact-form glass-card reveal"
+                          id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name"
+                                   name="name"
+                                   placeholder="Enter your name"
+                                   required minlength="2">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email"
+                                   name="email"
+                                   placeholder="you@example.com"
+                                   required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject"
+                                   name="subject"
+                                   placeholder="What is it about?"
+                                   required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message"
+                                      rows="5"
+                                      placeholder="Write your message..."
+                                      required minlength="10"></textarea>
+                        </div>
+
+                        <button type="submit"
+                                class="btn btn-primary submit-btn">
+                            Send Message
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+
+                        <p id="formStatus"
+                           class="form-status"
+                           role="status"
+                           aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">Port<span>folio.</span></a>
+
+            <p>
+                Designed & built with
+                <i class="fa-solid fa-heart"></i> by Kashish Srivastava
+            </p>
+
+            <p>&copy; <span id="currentYear"></span> All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top"
+            aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
